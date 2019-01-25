@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Default Suite]]]]">
+  <parameter name="name" value="zhanglei"/>
+  <parameter name="age" value="16"/>
+  <test name="testngserver(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="org.zhanglei.testdemo.TestDependence">
+        <methods>
+          <include name="testFail"/>
+        </methods>
+      </class> <!-- TestDependence -->
+    </classes>
+  </test> <!-- testngserver(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Default Suite]]]] -->
